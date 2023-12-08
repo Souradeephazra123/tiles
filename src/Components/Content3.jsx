@@ -49,11 +49,11 @@ const Content3 = () => {
         </div>
       </div>
 
-      <button className="mt-8 w-40 absolute left-16 rounded-2xl p-1 border-solid border-2 border-slate-400">
+      <button className="mt-12 w-40 absolute left-16 rounded-2xl p-1 border-solid border-2 border-slate-400">
         Previous Question
       </button>
 
-      <div className="mt-8   flex flex-row absolute right-16 gap-4  text-gray-400">
+      <div className="mt-12   flex flex-row absolute right-16 gap-4  text-gray-400">
         <p>
           {" "}
           Products available (728){" "}
