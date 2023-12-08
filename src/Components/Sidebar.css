@@ -1,0 +1,13 @@
+.sidebar {
+  position: relative;
+}
+
+.sidebar::before {
+  content: "";
+  position: absolute;
+  left: 22px; /* Adjust this value to position the line correctly */
+  top: 14%;
+  bottom: 17%;
+  width: 1px; /* Adjust this value to change the thickness of the line */
+  background-color: black; /* Change this to the color you want for the line */
+}
