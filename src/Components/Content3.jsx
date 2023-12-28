@@ -2,9 +2,11 @@ import React from "react";
 import { CiCirclePlus } from "react-icons/ci";
 import { FaLongArrowAltLeft } from "react-icons/fa";
 import { FaLongArrowAltRight } from "react-icons/fa";
+import Sidebar from "./sidebar";
 const Content3 = () => {
   return (
-    <div className="w-74 h-full bg-orange-50 absolute top-0 right-0 text-sm">
+    <div className="w-full h-full bg-orange-50 absolute top-0 right-0 text-sm">
+      <Sidebar />
       <div className="container flex flex-row items-center gap-10 justify-center">
         <div className="w-1/5 h-40 mt-52 border-t-2 border-b-2 border-pink-950 relative flex items-center flex-col">
           <div className="w-6 h-20 bg-orange-400 "></div>

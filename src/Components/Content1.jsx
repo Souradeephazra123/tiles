@@ -2,10 +2,12 @@ import React from "react";
 import Image1 from "../assets/image1.png";
 import Image2 from "../assets/image2.png";
 import { CiCirclePlus } from "react-icons/ci";
+import Sidebar from "./sidebar";
 const Content1 = () => {
   return (
-    <div className="w-74 h-full bg-orange-50 absolute top-0 right-0 text-sm ">
+    <div className="w-full bg-orange-50 absolute top-0 right-0 text-sm ">
       {/* card */}
+      <Sidebar />
       <div className="card-container flex flex-row justify-center pt-36 gap-20">
         <div className="card-1 max-w-xs relative">
           <img className=" w-44 h-52" src={Image1} alt="None" />

@@ -1,3 +1,16 @@
+/* .sidebar {
+  position: relative;
+}
+
+.sidebar::before {
+  content: "";
+  position: absolute;
+  top: 22px; 
+  right: 14%;
+  width: 1px;  background-color: black; 
+} */
+
+
 .sidebar {
   position: relative;
 }
@@ -5,9 +18,20 @@
 .sidebar::before {
   content: "";
   position: absolute;
-  left: 22px; /* Adjust this value to position the line correctly */
-  top: 14%;
-  bottom: 17%;
-  width: 1px; /* Adjust this value to change the thickness of the line */
+  top: 50%; /* Adjust this value to vertically center the line */
+  right: 50%; /* Adjust this value to horizontally center the line */
+  width: calc(100% - 30px); /* Adjust this value to control the length of the line */
+  height: 1px; /* Adjust this value to change the thickness of the line */
   background-color: black; /* Change this to the color you want for the line */
+  transform: translate(50%, -50%); /* Center the line */
+}
+
+.line {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  width: calc(100% - 30px);
+  height: 1px;
+  background-color: black;
+  transform: translate(50%, -50%);
 }

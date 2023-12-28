@@ -10,10 +10,12 @@ import image7 from "../assets/i (8).webp";
 import image8 from "../assets/i (9).webp";
 import image9 from "../assets/i (10).webp";
 import image10 from "../assets/i (11).webp";
+import Sidebar from "./sidebar";
 
 const Content2 = () => {
   return (
-    <div className="w-74 h-full  absolute top-0 right-0 text-sm">
+    <div className="w-full h-full  absolute top-0 right-0 text-sm">
+      <Sidebar />
       <div className="tiles flex justify-center items-center flex-col gap-10 pt-40">
         <div className="row-1 flex flex-row gap-20">
           <div>
