@@ -55,11 +55,7 @@ const Content3 = () => {
         Previous Question
       </button>
 
-<<<<<<< HEAD
       <div className="mt-12 flex flex-row absolute right-16 gap-4  text-gray-400">
-=======
-      <div className="mt-12   flex flex-row absolute right-16 gap-4  text-gray-400">
->>>>>>> 8286a175ec03d62819eee37cab290a6801909408
         <p>
           {" "}
           Products available (728){" "}
